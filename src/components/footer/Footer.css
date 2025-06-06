@@ -1,0 +1,140 @@
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 20px;
+    background-color: #121212;
+    color: white;
+  }
+  
+  .footer-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .footer-logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 20px;
+  }
+  
+  .footer-desc {
+    font-size: 16px;
+    width: 90%;
+    line-height: 1.6;
+    color: #bbb;
+  }
+  
+  .social-container {
+    display: flex;
+    margin-top: 15px;
+  }
+  
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .icon {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .footer-center {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .footer-title {
+    font-size: 22px;
+    color: #ffcc00;
+    margin-bottom: 20px;
+  }
+  
+  .footer-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-list-item {
+    width: 50%;
+    font-size: 18px;
+    color: #bbb;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .footer-list-item:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+  }
+  
+  .footer-right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #bbb;
+  }
+  
+  .contact-icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ffcc00;
+  }
+  
+  .payment {
+    width: 80%;
+    margin-top: 15px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .footer-left,
+    .footer-center,
+    .footer-right {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .social-container {
+      justify-content: center;
+    }
+  
+    .footer-center {
+      display: none;
+    }
+  
+    .footer-right {
+      background-color: #1a1a1a;
+      padding: 30px;
+      border-radius: 10px;
+    }
+  }
+  
