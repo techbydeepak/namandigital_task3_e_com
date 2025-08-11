@@ -1,26 +1,26 @@
-import slider1 from "./assets/slider1.png.jpg"
-import slider2 from "./assets/slider2.png.jpg";
-import slider3 from "./assets/slider3.png.jpg";
+import slider1 from "./assets/slider1.png.jpeg"
+import slider2 from "./assets/slider2.png.jpeg";
+import slider3 from "./assets/slider3.png.png";
 
 import category1 from "./assets/category1.jpg.jpeg"
-import category2 from "./assets/category2.jpg.jpg";
-import category3 from "./assets/category3.jpg.jpg";
+import category2 from "./assets/category2.jpg.jpeg";
+import category3 from "./assets/category3.jpg.jpeg";
 
-import products1 from "./assets/products1.png.png";
-import products2 from "./assets/products2.png.jpg";
-import products3 from "./assets/products3.png.jpg";
-import products4 from "./assets/products4.png.jpg";
-import products5 from "./assets/products5.png.jpg";
-import products6 from "./assets/products6.png.webp"
-import products7 from "./assets/products7.png.jpg";
-import products8 from "./assets/products8.png.jpg";
-import products9 from "./assets/products9.png.jpg";
-import products10 from "./assets/products10.png.png"
-import products11 from "./assets/products11.png.jpg";
-import products12 from "./assets/products12.png.jpg";
-import products13 from "./assets/products13.png.jpg";
-import products14 from "./assets/products14.png.jpg";
-import products15 from "./assets/products15.png.jpg";
+import products1 from "./assets/products1.png.jpeg";
+import products2 from "./assets/products2.png.jpeg";
+import products3 from "./assets/products3.png.jpeg";
+import products4 from "./assets/products4.png.jpeg";
+import products5 from "./assets/products5.png.jpeg";
+import products6 from "./assets/products6.png.jpeg"
+import products7 from "./assets/products7.png.jpeg";
+import products8 from "./assets/products8.png.jpeg";
+import products9 from "./assets/products9.png.jpeg";
+import products10 from "./assets/products10.png.jpeg"
+import products11 from "./assets/products11.png.jpeg";
+import products12 from "./assets/products12.png.jpeg";
+import products13 from "./assets/products13.png.webp";
+import products14 from "./assets/products14.png.jpeg";
+import products15 from "./assets/products15.png.avif";
 import products16 from "./assets/products16.png.png"
 
 export const sliderItems = [
