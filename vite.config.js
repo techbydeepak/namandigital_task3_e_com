@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
+import tailwindcss from '@tailwindcss/vite' // or 'tailwindcss' if using v3
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -8,5 +8,8 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/namandigital_task3_e_com/' // ← add this line
+  
+  base: import.meta.env.MODE === 'production' 
+    ? '/namandigital_task3_e_com/' 
+    : '/',
 })
